@@ -17,6 +17,9 @@ jupyter notebook \
 --no-browser # stop browser opening on startup \
 --port=8888 # leave as default
 
+
+# oneliner
+jupyter notebook --notebook-dir=$HOME/jupyter_servers_workdir --no-browser --port=8888
 ```
 Should receive URL like `http://localhost:${SERVER_PORT_NUMBER}/?token=5f11a3 ...`
 where `SERVER_PORT_NUMBER` is `8888` in this case. 
