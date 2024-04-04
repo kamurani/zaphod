@@ -14,7 +14,7 @@ mkdir jupyter_servers_workdir
 # start jupyter server
 jupyter notebook \
 --notebook-dir=$HOME/jupyter_servers_workdir \
---no-browser \  # stop browser opening on startup
+--no-browser # stop browser opening on startup \
 --port=8888 # leave as default
 
 ```
