@@ -1,5 +1,7 @@
 #### Running VScode locally while connecting to Zaphod jupyter kernel 
 
+Make sure to run 
+`(base)$ conda install nb_conda_kernels` to make environments visible. 
 
 ```bash
 # Using `zaphod` alias in ~/.ssh/config 
