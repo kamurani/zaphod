@@ -1,3 +1,19 @@
+#### Installing deep learning packages 
+
+```
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install -c conda-forge jupyterlab
+
+# to make VScode recognise kernels on remote jupyter server
+conda install ipykernel
+conda install nb_conda_kernels
+
+conda install lightning -c conda-forge
+conda install -c conda-forge torchmetrics
+conda install pyg -c pyg
+```
+
 #### Running VScode locally while connecting to Zaphod jupyter kernel 
 
 Make sure to run 
